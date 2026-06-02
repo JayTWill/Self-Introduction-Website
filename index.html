@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Website Icon Kit from FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/647721dd4e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <nav>
+      <span class="nav-brand open-sans-regular"
+        ><i class="fa-solid fa-briefcase"></i>Front End Dev & Network Operations
+        Specialist</span
+      >
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul id="nav-links">
+        <li>
+          <a href="#" class="open-sans-regular"
+            ><i class="fa-solid fa-house"></i> Home</a
+          >
+        </li>
+        <!-- <li><a href="#">About Me</a></li> -->
+        <li>
+          <a
+            href="https://github.com/JayTWill"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="open-sans-regular"
+            ><i class="fa-brands fa-github"></i>GitHub</a
+          >
+        </li>
+        <li>
+          <a href="#" class="open-sans-regular"
+            ><i class="fa-solid fa-envelope"></i>Contact Info</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header finisher-header">
+      <div class="intro">
+        <p class="intro-label barlow-condensed-medium">Hi, my name is</p>
+        <h1 class="intro-name">Jamall Williams</h1>
+      </div>
+
+      <div class="bio">
+        <p class="bio-text">
+          I'm a <span class="bio-highlight">Front End Developer</span>,
+          <span class="bio-highlight">Aspiring CyberSecurity Specialist</span>
+          and <span class="bio-highlight">IT Consultant</span>
+          based in Hartford, CT. I'm passionate about learning and creating new
+          things. I love building things that are cool. When I'm not
+          working/coding, you can find me playing games like Marvel Rivals or
+          watching TV Shows.
+        </p>
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn-more">More About Me</button>
+      <i class="fa-solid fa-arrow-down"></i>
+    </div>
+
+    <section id="about">
+      <div class="about-card-one"></div>
+      <div class="about-card-two"></div>
+      <div class="about-card-three"></div>
+    </section>
+
+    <!-- Script for animated header -->
+    <script src="js/finisher-header.es5.min.js" type="text/javascript"></script>
+  </body>
+</html>
