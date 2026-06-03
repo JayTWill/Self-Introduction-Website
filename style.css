@@ -126,14 +126,17 @@ nav ul li a:hover {
 #about {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 18px;
   padding: 40px;
 }
 
 .about-card-one,
 .about-card-two,
 .about-card-three {
-  flex: 1;
+  width: 300px;
+  height: 300px;
 }
 
 .btn-container {
@@ -151,7 +154,7 @@ nav ul li a:hover {
   padding: 12px 32px;
   border: none;
   background-color: transparent;
-  color: #606060;
+  color: #f7f7f7;
   cursor: pointer;
   letter-spacing: 1px;
 }
