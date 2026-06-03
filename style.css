@@ -84,6 +84,18 @@ nav ul li a:hover {
     position: relative;
     flex-wrap: wrap;
   }
+  .header finisher-header {
+    flex-direction: column;
+    flex-direction: row;
+  }
+
+}
+
+.finisher-header {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 40px;
 }
 
 .intro {
@@ -139,12 +151,29 @@ nav ul li a:hover {
   height: 300px;
 }
 
+.about-card-three img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.about-card-two img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.about-card-one img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
 .btn-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  padding: 85px 32px 32px 32px;
 }
 
 .btn-more {
