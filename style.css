@@ -149,24 +149,45 @@ nav ul li a:hover {
 .about-card-three {
   width: 300px;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.about-card-one a,
+.about-card-two a,
+.about-card-three a   {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-card-text {
+  text-align: center;
+  color: #333;
+  font-size: 16px;
 }
 
 .about-card-three img {
   width: 75%;
   height: 75%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .about-card-two img {
   width: 75%;
   height: 75%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .about-card-one img {
   width: 75%;
   height: 75%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .btn-container {
